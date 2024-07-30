@@ -1,0 +1,32 @@
+.main-containers {
+    height: 100vh;
+    /* background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(82, 82, 182, 1) 29%, rgba(0, 212, 255, 1) 100%); */
+    background: url("https://wallpaperaccess.com/full/1946317.jpg");
+    /* background-position: fixed; */
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .sub-containers {
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .input-group-text {
+    background-color: #f8f9fa;
+  }
+  
+  .form-control:focus {
+    box-shadow: none;
+    border-color: #82b1ff;
+  }
+  
+  input[type="checkbox"] {
+    accent-color: #fd0d51;
+  }
+
+  .form-background{
+    background: rgba(207, 199, 199, 0.8);
+    backdrop-filter: saturate(180%) blur(5px);
+  }
+  
